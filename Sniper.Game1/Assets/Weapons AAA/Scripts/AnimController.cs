@@ -1,9 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-/// <summary>
-/// This script is the full control script for the first person charater.
-/// In this script are the commands for the player movement, aiming, shooting and any additional actions.
-/// </summary>
+
 public class AnimController : MonoBehaviour {
 
 

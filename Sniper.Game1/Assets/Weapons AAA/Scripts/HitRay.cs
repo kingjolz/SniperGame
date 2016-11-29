@@ -8,8 +8,7 @@ public class HitRay : MonoBehaviour {
     public GameObject Hole;
     float force = 2000f;
     public Slider slider;
-    int remainingKills;
-
+  
     // Use this for initialization
     void Start () {
         slider = GetComponent<Slider>();
@@ -39,8 +38,8 @@ public class HitRay : MonoBehaviour {
             if (hit.transform.tag == "Enemy")
             {
                 Destroy(hit.transform.gameObject);
-                FindObjectOfType<score>().RegisterKill();
-                
+                FindObjectOfType<score>().RegisterKill(); 
+               
             }  
             
 
