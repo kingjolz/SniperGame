@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// This script is the full control script for the first person charater.
+/// In this script are the commands for the player movement, aiming, shooting and any additional actions.
+/// </summary>
 public class AnimController : MonoBehaviour {
 
 
-    private bool holderState, run, walk, aim, fire, scope = true, silencers = true, empty, melee, hide, holderkey, Jump;
+    private bool holderState, run, walk, aim, fire, scope = true, silencers, empty, melee, hide, holderkey, Jump;
     private float h, v;
     private int currentState;
     private Animator anim;
